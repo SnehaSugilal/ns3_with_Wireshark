@@ -12,19 +12,19 @@ We deal with UDP Echo, an application in which the client sends some information
    - Data Rate: 10 Mbps
    - Delay: 2 ms
 - IP address assignment:
-   o 192.168.2.0/24
+   - 192.168.2.0/24
 - Application:
-   o UDP Echo Server on port 63
-   o Packet size: 256 bytes
+   - UDP Echo Server on port 63
+   - Packet size: 256 bytes
 
 ## Part 2: Starting from second.cc in the Tutorials folder within your ns-3 installation, let's create and simulate a network with the following architecture:
 - The network contains:
-     o 3 nodes in the first shared bus operating under CSMA
-     o 3 nodes in the second shared bus operating under CSMA
-     o 2 nodes in the point-to-point link (Note that Nodes 2 and 3 in Figure 1 have two network interfaces, one for each link to which they are connected)
+    - 3 nodes in the first shared bus operating under CSMA
+    - 3 nodes in the second shared bus operating under CSMA
+    - 2 nodes in the point-to-point link (Note that Nodes 2 and 3 in Figure 1 have two network interfaces, one for each link to which they are connected)
 - The applications running in the network are:
-     o UDP Echo Server at Node 1 (Listening on port 21)
-     o UDP Echo Client at Node 5 (Sends 2 UDP Echo packets to the server at times 4s and 7s)
+    - UDP Echo Server at Node 1 (Listening on port 21)
+    - UDP Echo Client at Node 5 (Sends 2 UDP Echo packets to the server at times 4s and 7s)
 - Enable packet tracing with promiscuous mode only in Nodes 2 in the point-to-point interface and Node 4
 
 
