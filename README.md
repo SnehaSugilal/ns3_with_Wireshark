@@ -8,8 +8,8 @@ We deal with UDP Echo, an application in which the client sends some information
 
 ## Part 1: Modify the example 'first.cc' to simulate the following network:
 - 2 nodes: 1 network interface at each node
-- Point-to-point link: 
-   o Data Rate: 10 Mbps
+- Point-to-point link:
+     - Data Rate: 10 Mbps
    o Delay: 2 ms
 - IP address assignment:
    o 192.168.2.0/24
