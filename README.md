@@ -7,9 +7,9 @@ The objective of this task is to become familiar with the ns-3 working environme
 We deal with UDP Echo, an application in which the client sends some information to the server, who replies back with the same packet. We will set up the client to send just one packet at time t=2 sec. For detailed information go to the ns-3 Tutorial, section 5.2 “A First ns-3 Script". Refer the pdf document above to get better understanding and visualization.
 
 ## Part 1: Modify the example 'first.cc' to simulate the following network:
-  • 2 nodes: 1 network interface at each node
-  • Point-to-point link: 
-        o Data Rate: 10 Mbps
+  -• 2 nodes: 1 network interface at each node
+  -• Point-to-point link: 
+       -- o Data Rate: 10 Mbps
         o Delay: 2 ms
   • IP address assignment:
         o 192.168.2.0/24
